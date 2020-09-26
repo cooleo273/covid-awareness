@@ -39,23 +39,47 @@ export const Rectangle1 = styled.div`
     background: #FFFFFF;
     box-shadow: 0px 35px 87px rgba(0,0,0,0.11);
     border-radius: 10px;
-    width: 344px;
-    height: 402px;
+    width: 292px;
+    height: 333px;
     position: relative;
     top: 89px;
-    left: 100px;
+    left: 170px;
    && img{
        width:200px;
+       position:relative;
+       top:50px;
    }
 `
 
 export const Rectangle2 = styled.div`
-    text-align:center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 35px 87px rgba(0,0,0,0.11);
+    border-radius: 10px;
+    width: 292px;
+    height: 333px;
+    position: relative;
+    top: 89px;
+    left: 95px;
+    && img{
+        width: 200px;
+    position: relative;
+    top: 18px;
+   }
 `
 
 export const Rectangle3 = styled.div`
-    text-align:center;
-`
-export const Maskgirl = styled.div`
-    text-align:center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 35px 87px rgba(0,0,0,0.11);
+    border-radius: 10px;
+    width: 292px;
+    height: 333px;
+    position: relative;
+    top: 89px;
+    && img{
+       width:200px;
+       position:relative;
+       top:50px;
+   }
 `

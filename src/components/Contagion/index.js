@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container1,Rectangle1,Rectangle2,Rectangle3,Textc } from './styles'
-import hero from "../../assets/svg/Mask girl.svg"
+import hero from "../../assets/svg/Group 18545.svg"
+import hero1 from "../../assets/svg/Group 18541.svg"
+import hero2 from "../../assets/svg/Group 18543.svg"
 
 function Contagion() {
     return (
@@ -19,13 +21,12 @@ function Contagion() {
             <Textc>
             <Rectangle1>
             <img src={hero} alt="blank" />
-            <h3>Air Transmission</h3>
             </Rectangle1>
             <Rectangle2>
-            <h3>Human Contacts</h3>
+            <img src={hero2} alt="blank" />
             </Rectangle2>
             <Rectangle3>
-            <h3>Containeted Objects</h3>
+            <img src={hero1} alt="blank" />
             </Rectangle3>
             </Textc>
 

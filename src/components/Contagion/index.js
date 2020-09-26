@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container1,Textc } from './styles'
+import { Container1,Rectangle1,Rectangle2,Rectangle3,Textc } from './styles'
 
 function Contagion() {
     return (
@@ -16,7 +16,15 @@ function Contagion() {
             Cause Disease. A Newly Identified Type 
             </p>
             <Textc>
-            
+            <Rectangle1>
+            <h3>Air Transmission</h3>
+            </Rectangle1>
+            <Rectangle2>
+            <h3>Human Contacts</h3>
+            </Rectangle2>
+            <Rectangle3>
+            <h3>Containeted Objects</h3>
+            </Rectangle3>
             </Textc>
 
         </Container1>

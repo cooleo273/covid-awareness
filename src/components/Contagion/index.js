@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container1,Rectangle1,Rectangle2,Rectangle3,Textc,Maskgirl } from './styles'
+import { Container1,Rectangle1,Rectangle2,Rectangle3,Textc } from './styles'
 import hero from "../../assets/svg/Mask girl.svg"
 
 function Contagion() {
@@ -18,7 +18,7 @@ function Contagion() {
             </p>
             <Textc>
             <Rectangle1>
-            <Maskgirl src={hero} alt="blank" />
+            <img src={hero} alt="blank" />
             <h3>Air Transmission</h3>
             </Rectangle1>
             <Rectangle2>

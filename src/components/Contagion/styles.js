@@ -33,3 +33,14 @@ export const Container1 = styled.div`
 export const Textc = styled.div`
 
 `
+export const Rectangle1 = styled.div`
+
+`
+
+export const Rectangle2 = styled.div`
+
+`
+
+export const Rectangle3 = styled.div`
+
+`

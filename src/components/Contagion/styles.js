@@ -44,3 +44,6 @@ export const Rectangle2 = styled.div`
 export const Rectangle3 = styled.div`
 
 `
+export const Maskgirl = styled.div`
+
+`

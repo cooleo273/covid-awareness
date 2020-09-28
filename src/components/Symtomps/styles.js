@@ -29,4 +29,10 @@ export const Container2 = styled.div`
     left:437px;
     text-align:center;
 }
+&& img{
+    position:relative;
+    width:1200px;
+    left:100px;
+    top:50px;
+}
 `
